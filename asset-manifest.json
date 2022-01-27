@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/portfolio/static/js/main.bc1a3e37.js",
+    "static/media/banner.jpg": "/portfolio/static/media/banner.e99012f2e79b91d76108.jpg",
+    "static/media/EuMesmo.jpg": "/portfolio/static/media/EuMesmo.e061fcf5d11af631882f.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.bc1a3e37.js.map": "/portfolio/static/js/main.bc1a3e37.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.bc1a3e37.js"
+  ]
+}
