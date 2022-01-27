@@ -41,7 +41,6 @@ export default function Github() {
   }
 
   return (
-    <GithubContainer>
       <ContentGithub>
         <Items>
           <Foto>
@@ -70,6 +69,5 @@ export default function Github() {
           <p>{errorMsg}</p>
         </Items>
       </ContentGithub>
-    </GithubContainer>
   )
 }

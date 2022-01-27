@@ -1,11 +1,10 @@
 import React from "react";
-import { AboutContainer } from "./styles";
+import { AboutText } from "./styles";
 import MeImg from "../../assets/img/EuMesmo.jpg"
 
 export default function About() {
   return (
-    <AboutContainer>
-      <div>
+      <AboutText>
         <img src={MeImg} alt="Daniel" />
         <div className="Text">
           <h2>Sobre Mim</h2>
@@ -29,7 +28,6 @@ export default function About() {
             amante de livros e música, trompetista. Um jovem com muita vontade de fazer a
             diferença pronto para quaisquer desafios que surgirem. E aí, vamos trabalhar juntos?</p>
         </div>
-      </div>
-    </AboutContainer>
+      </AboutText>
   )
 }

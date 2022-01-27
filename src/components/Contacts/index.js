@@ -4,7 +4,6 @@ import { ContactsContainer } from "./styles";
 export default function Contacts() {
   return (
     <ContactsContainer>
-      <div>
         <h1>Entre em contato comigo!</h1>
         <ul>
           <li className="email">
@@ -23,7 +22,6 @@ export default function Contacts() {
             Tel/WhatsApp: (21)98015-4830
           </li>
         </ul>
-      </div>
     </ContactsContainer>
   )
 }

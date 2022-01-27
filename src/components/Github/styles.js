@@ -1,40 +1,17 @@
 import styled from "styled-components";
-import bannerImg from "../../assets/img/banner.jpg"
-
-export const GithubContainer = styled.div`
-  height: 80vh;
-  background-image: url(${bannerImg});
-  background-position: center;
-  background-size: cover;
-  position: relative;
-
-  &:after{
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(46, 46, 46, 0.8);
-  }
-
-  div {
-    z-index: 10;
-  }
-`;
 
 export const ContentGithub = styled.div`
    @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
-
+  z-index: 10;
   animation: fadeIn 2s;
   padding-top: 2rem;
   max-width: 1200px;
   width: 100%
-  display: flex;
   margin: 0 auto;
+  display: flex;
 
   h2 {
     text-align: center;
@@ -44,9 +21,9 @@ export const ContentGithub = styled.div`
 
 export const Items = styled.div`
   display: flex;
-  justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
+  display: flex;
 `;
 
 export const Foto = styled.div`
@@ -74,7 +51,7 @@ export const Foto = styled.div`
 `;
 
 export const List = styled.div`
-  width: 100%;
+  width: 50vw;
 
   @keyframes slidein {
     from {
