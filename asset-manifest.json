@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "./static/js/main.b5514a60.js",
-    "static/media/banner.jpg": "./static/media/banner.8182ff875fa27eb9daee.jpg",
-    "static/media/EuMesmo.jpg": "./static/media/EuMesmo.e061fcf5d11af631882f.jpg",
-    "index.html": "./index.html",
-    "main.b5514a60.js.map": "./static/js/main.b5514a60.js.map"
+    "main.js": "/portfolio/static/js/main.89cb43ae.js",
+    "static/media/banner.jpg": "/portfolio/static/media/banner.8182ff875fa27eb9daee.jpg",
+    "static/media/EuMesmo.jpg": "/portfolio/static/media/EuMesmo.e061fcf5d11af631882f.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.89cb43ae.js.map": "/portfolio/static/js/main.89cb43ae.js.map"
   },
   "entrypoints": [
-    "static/js/main.b5514a60.js"
+    "static/js/main.89cb43ae.js"
   ]
 }
