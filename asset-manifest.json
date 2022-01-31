@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/mypage/static/js/main.e65c966e.js",
+    "main.js": "/mypage/static/js/main.df79a57a.js",
     "static/media/banner.jpg": "/mypage/static/media/banner.8182ff875fa27eb9daee.jpg",
     "static/media/EuMesmo.jpg": "/mypage/static/media/EuMesmo.e061fcf5d11af631882f.jpg",
     "index.html": "/mypage/index.html",
-    "main.e65c966e.js.map": "/mypage/static/js/main.e65c966e.js.map"
+    "main.df79a57a.js.map": "/mypage/static/js/main.df79a57a.js.map"
   },
   "entrypoints": [
-    "static/js/main.e65c966e.js"
+    "static/js/main.df79a57a.js"
   ]
 }
