@@ -17,8 +17,8 @@ export default function About() {
             a mergulhar cada vez mais nessa vastidão de conhecimento.</p>
 
           <p>Nesse caminho de estudo, tenho focado bastante no aprendizado das
-            ferramentas de desenvolvimento Front End, dentre elas: HTML, CSS,
-            Javascript, React Js, Typescript, Bootstrap, sem deixar de lado o Back End,
+            ferramentas de desenvolvimento Front-End, dentre elas: HTML, CSS,
+            Javascript, React Js, Typescript, Bootstrap, sem deixar de lado o Back-End,
             principalmente com o estudo de Node Js. Mas, claro, continuo sempre estudando
             e me aprofundando para ampliar cada vez mais meus conhecimentos,
             a fim de me tornar um profissional cada vez melhor.</p>
