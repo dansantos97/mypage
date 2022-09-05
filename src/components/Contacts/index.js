@@ -16,7 +16,7 @@ export default function Contacts() {
             <a href="https://github.com/dansantos97" target='_blank' rel="noreferrer">Acesse meu perfil no Github</a>
           </li>
           <li className="insta">
-            <a href="https://www.instagram.com/fladansantos" target='_blank' rel="noreferrer">Visite meu Instagram</a>
+            <a href="https://www.instagram.com/danferreirarj" target='_blank' rel="noreferrer">Visite meu Instagram</a>
           </li>
           <li className="whatsapp">
             Tel/WhatsApp: (21)98015-4830
