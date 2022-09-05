@@ -18,11 +18,11 @@ export default function Github() {
     })
       .then(function (response) {
         setUserGithub(response.data);
-        console.log(response);
+//         console.log(response);
       })
       .catch(function (error) {
         setErrorMsg('GitHub temporariamente fora de serviço!');
-        console.log(error);
+//         console.log(error);
       });
   }
 
@@ -32,11 +32,11 @@ export default function Github() {
     })
       .then(function (response) {
         setProjects(response.data);
-        console.log(response);
+//         console.log(response);
       })
       .catch(function (error) {
         setErrorMsg('GitHub temporariamente fora de serviço!');
-        console.log(error);
+//         console.log(error);
       });
   }
 

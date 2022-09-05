@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 export const AboutText = styled.div`
-  @keyframes fadeIn {
+   @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
+
   z-index: 10;
   display: flex;
   padding-left: 15px;
