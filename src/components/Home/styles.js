@@ -33,28 +33,4 @@ export const HomeText = styled.div`
     margin: 0;
     margin-bottom: 1rem;
   }
-
-  button {
-    min-width: 150px;
-    border: solid 1px #dfa70c;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #eeeeee;
-    background-color: transparent;
-    border-radius: 40px;
-    font-size: 1rem;
-    padding: 10px 15px;
-    margin: 0 auto;
-    margin-bottom: 1rem;
-    margin-top: 2rem;
-    cursor: pointer;
-    transition-duration: 1s;
-
-    &:hover {
-      background-color: #dfa70c;
-      border: solid 1px #eeeeee;
-      transition-duration: 1s;
-    }
-  }
 `;

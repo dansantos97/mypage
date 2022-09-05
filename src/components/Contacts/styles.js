@@ -24,6 +24,7 @@ export const ContactsContainer = styled.div`
   li {
     padding: 15px;
     font-size: 20px;
+    text-align: start;
   }
   li.email {
     list-style-image: url(${emailImg});

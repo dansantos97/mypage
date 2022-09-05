@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { ButtonDefault, ContentGithub, Foto, GithubContainer, Items, List } from "./styles";
+import { ButtonDefault, ContentGithub, Foto, Items, List } from "./styles";
 
 export default function Github() {
   const [userGithub, setUserGithub] = useState([]);
@@ -49,7 +49,7 @@ export default function Github() {
             <h4>{userGithub.login}</h4>
             <p>{userGithub.bio}</p>
             <ButtonDefault>
-              <a href="https://github.com/dansantos97" target='_blank' rel="noreferrer">Ver todos</a>
+              <a href="https://github.com/dansantos97?tab=repositories" target='_blank' rel="noreferrer">Ver todos</a>
             </ButtonDefault>
           </Foto>
           <List>

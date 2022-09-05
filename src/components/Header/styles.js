@@ -14,4 +14,8 @@ export const Container = styled.div`
   display: flex;
   justify-content: end;
   align-items: center;
+
+  @media (max-width: 620px) {
+    justify-content: center;
+  }
 `;

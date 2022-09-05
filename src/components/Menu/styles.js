@@ -26,4 +26,18 @@ export const ContainerMenu = styled.nav`
       transition-duration: 1s;
     }
   }
+
+  @media (max-width: 620px) {
+    li {
+      margin: 5px;
+    }
+
+    a {
+      text-decoration: underline;
+
+      &:hover {
+        color: #7d8792;
+      }
+    }
+  }
 `;
