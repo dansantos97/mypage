@@ -6,7 +6,7 @@ export const ContentGithub = styled.div`
     100% { opacity: 1; }
   }
   z-index: 10;
-  animation: fadeIn 2s;
+  animation: fadeIn 2s ease-in-out;
   padding-top: 2rem;
   max-width: 1200px;
   width: 100%
@@ -77,7 +77,7 @@ export const List = styled.div`
 }
 
   div {
-    animation: slidein 2s;
+    animation: slidein 1s;
     width: 90%;
     border-radius: 10px;
     background-color: rgba(238, 238, 238, 0.5);

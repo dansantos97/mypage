@@ -15,7 +15,7 @@ export const AboutText = styled.div`
   }
 
   img {
-    animation: fadeIn 3s ease-in-out;
+    animation: fadeIn 5s ease-in-out;
     max-width: 500px;
     border-radius: 4px;
 
@@ -36,11 +36,11 @@ export const AboutText = styled.div`
 
   p {
     color: #ededed;
-    line-height: 1.5rem;
+    line-height: 2rem;
     text-align: justify;
 
     @media(max-width: 620px) {
-      line-height: 15px;
+      line-height: 17px;
       margin-bottom: 0;
     }
   }
@@ -49,6 +49,6 @@ export const AboutText = styled.div`
     display: flex;
     flex-direction: column;
     padding: 15px;
-    animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
   }
 `;

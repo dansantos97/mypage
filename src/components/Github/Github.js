@@ -18,11 +18,11 @@ export default function Github() {
     })
       .then(function (response) {
         setUserGithub(response.data);
-//         console.log(response);
+        //         console.log(response);
       })
       .catch(function (error) {
         setErrorMsg('GitHub temporariamente fora de serviço!');
-//         console.log(error);
+        //         console.log(error);
       });
   }
 
@@ -32,42 +32,42 @@ export default function Github() {
     })
       .then(function (response) {
         setProjects(response.data);
-//         console.log(response);
+        //         console.log(response);
       })
       .catch(function (error) {
         setErrorMsg('GitHub temporariamente fora de serviço!');
-//         console.log(error);
+        //         console.log(error);
       });
   }
 
   return (
-      <ContentGithub>
-        <Items>
-          <Foto>
-            <img src={userGithub.avatar_url} alt="foto github" />
-            <h3>{userGithub.name}</h3>
-            <h4>{userGithub.login}</h4>
-            <p>{userGithub.bio}</p>
-            <ButtonDefault>
-              <a href="https://github.com/dansantos97?tab=repositories" target='_blank' rel="noreferrer">Ver todos</a>
-            </ButtonDefault>
-          </Foto>
-          <List>
-            {
-              projects.slice(0, 4).map((project) =>
-                <div key={project.id}>
-                  <h3><a href={project.html_url} target="_blank" rel="noreferrer">
-                    {project.name}</a>
-                  </h3>
-                  <p><a href={`https://dansantos97.github.io/${project.name}`}>
-                    dansantos97.github.io/{project.name}</a>
-                  </p>
-                </div>
-              )
-            }
-          </List>
-          <p>{errorMsg}</p>
-        </Items>
-      </ContentGithub>
+    <ContentGithub>
+      <Items>
+        <Foto>
+          <img src={userGithub.avatar_url} alt="foto github" />
+          <h3>{userGithub.name}</h3>
+          <h4>{userGithub.login}</h4>
+          <p>{userGithub.bio}</p>
+          <ButtonDefault>
+            <a href="https://github.com/dansantos97?tab=repositories" target='_blank' rel="noreferrer">Ver todos</a>
+          </ButtonDefault>
+        </Foto>
+        <List>
+          {
+            projects.slice(0, 4).map((project) =>
+              <div key={project.id}>
+                <h3><a href={project.html_url} target="_blank" rel="noreferrer">
+                  {project.name}</a>
+                </h3>
+                <p><a href={`https://dansantos97.github.io/${project.name}`}>
+                  dansantos97.github.io/{project.name}</a>
+                </p>
+              </div>
+            )
+          }
+        </List>
+        <p>{errorMsg}</p>
+      </Items>
+    </ContentGithub>
   )
 }

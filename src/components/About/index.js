@@ -4,11 +4,11 @@ import MeImg from "../../assets/img/EuMesmo.jpg"
 
 export default function About() {
   return (
-      <AboutText>
-        <img src={MeImg} alt="Daniel" />
-        <div className="Text">
-          <h2>Sobre Mim</h2>
-          <p>Olá! Seja muito bem-vindo à minha página de apresentação profissional!
+    <AboutText>
+      <img src={MeImg} alt="Daniel" />
+      <div className="Text">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Seja muito bem-vindo à minha página de apresentação profissional!
           É um grande prazer recebê-lo aqui. Meu nome é Daniel Ferreira dos Santos,
           moro na cidade de Nilópolis, no Rio de Janeiro.
           Amante de tecnologia desde que posso me lembrar. Sempre muito curioso em
@@ -16,18 +16,18 @@ export default function About() {
           entrei no mundo da programação e me fascinei! Esse fascínio tem me levado
           a mergulhar cada vez mais nessa vastidão de conhecimento.</p>
 
-          <p>Neste caminho de estudo, tenho focado bastante no aprendizado das
+        <p>Neste caminho de estudo, tenho focado bastante no aprendizado das
           ferramentas de desenvolvimento Front-End, dentre elas: HTML, CSS,
           Javascript, React Js, Next, Typescript, Bootstrap, e um pouco do Back-End,
           principalmente com o estudo de Node Js, e banco de dados. Mas, claro,
           continuo sempre estudando e me aprofundando para ampliar cada vez mais meus
           conhecimentos, a fim de me tornar um profissional cada vez melhor.</p>
 
-          <p>Sou bastante comunicativo, tenho facilidade de lidar com outras pessoas.
+        <p>Sou bastante comunicativo, tenho facilidade de lidar com outras pessoas.
           Considero-me alguém com boa capacidade analítica, o que é muito bom para
           resolução de problemas, e me sinto altamente motivado com desafios.
           E aí, vamos trabalhar juntos?</p>
-        </div>
-      </AboutText>
+      </div>
+    </AboutText>
   )
 }
