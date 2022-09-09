@@ -40,7 +40,7 @@ export const AboutText = styled.div`
     text-align: justify;
 
     @media(max-width: 620px) {
-      line-height: 16.5px;
+      line-height: 20px;
       margin-bottom: -5px;
     }
   }
