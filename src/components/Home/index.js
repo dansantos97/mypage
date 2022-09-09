@@ -9,6 +9,5 @@ export default function Home() {
       <h2>Bem-vindo à minha página!</h2>
       <p>"Programadores e artistas são os únicos profissionais que têm como hobby a própria profissão"  - Rafael Lain</p>
     </HomeText>
-
   )
 }

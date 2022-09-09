@@ -29,8 +29,8 @@ export const AboutText = styled.div`
     text-align: center;
 
     @media (max-width: 620px) {
-      margin-bottom: 0px;
-      margin-top: 0px;
+      margin-bottom: -10px;
+      margin-top: -10px;
     }
   }
 
@@ -40,8 +40,8 @@ export const AboutText = styled.div`
     text-align: justify;
 
     @media(max-width: 620px) {
-      line-height: 17px;
-      margin-bottom: 0;
+      line-height: 16.5px;
+      margin-bottom: -5px;
     }
   }
 
